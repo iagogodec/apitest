@@ -38,7 +38,7 @@ app.post('/pessoas', async(req,res)=>{
 // rota inicial / endpoint
 app.get('/', (req,res)=>{
     //mostrar requisição
-    res.json({message: 'Oi express!'})
+    res.json({message: 'Oi express'})
 })
 // entregar uma porta
 const DB_USER = 'Godec'
